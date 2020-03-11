@@ -5,7 +5,7 @@ module.exports = function reverse (n) {
     let reversedN = splitedN.reverse();
     let joinedN = reversedN.join('');
 
-    return (parseFloat(joinedN));
+    return parseFloat(joinedN);
     
   
 }
